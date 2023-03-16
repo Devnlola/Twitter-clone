@@ -1,0 +1,112 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex: 1 1 1;
+}
+.sidebar {
+  position: fixed;
+  width: 360px;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  border-right: 1px solid rgb(227, 227, 227);
+}
+.top-div {
+  display: flex;
+  flex-direction: row;
+  width: 260px;
+  margin-left: 100px;
+  margin-top: 15px;
+}
+.logo {
+  height: 30px;
+  width: 30px;
+}
+.middle-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
+  margin-left: 100px;
+  margin-top: 20px;
+}
+.middle-div div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.middle-div img {
+  height: 35px;
+  width: 35px;
+}
+.middle-div p {
+  font-size: 18px;
+  margin-left: 15px;
+}
+.hover-div:hover {
+  background-color: rgb(210, 210, 210);
+  border-radius: 50px;
+  width: fit-content;
+  cursor: pointer;
+}
+.tweet-div {
+  display: flex;
+  margin-left: 55px;
+  margin-top: 15px;
+  height: 55px;
+  justify-content: center;
+}
+.tweet {
+  background-color: rgb(29, 161, 242);
+  color: white;
+  border: none;
+  height: 50px;
+  width: 220px;
+  border-radius: 100px;
+  font-size: 18px;
+  font-weight: bold;
+  box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.5);
+}
+.tweet:hover {
+  background-color: rgb(24, 138, 209);
+  cursor: pointer;
+}
+.bottom-div {
+  display: flex;
+  flex-direction: row;
+  margin-left: 100px;
+  margin-top: 150px;
+  height: 60px;
+  align-items: center;
+}
+.bottom-div:hover {
+  background-color: rgba(195, 195, 195, 0.432);
+  border-radius: 100px;
+  width: 260px;
+}
+.pp {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  object-fit: cover;
+  object-position: center;
+}
+.username-div {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  height: 40px;
+  justify-content: center;
+  margin-left: 8px;
+  line-height: 25px;
+}
+.dots-div {
+  display: flex;
+  flex-direction: row;
+  width: 90px;
+  height: 40px;
+  justify-content: end;
+  align-items: center;
+  font-size: 22px;
+}

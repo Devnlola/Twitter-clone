@@ -1,0 +1,396 @@
+.main-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 360px;
+  width: 660px;
+  height: 100px;
+  border-bottom: 1px solid rgb(218, 218, 218);
+  -webkit-backdrop-filter: blur(50px);
+}
+.home-div {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  height: 50px;
+  justify-content: start;
+  align-items: center;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 15px;
+}
+.two-div {
+  display: flex;
+  flex-direction: row;
+}
+.for-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 330px;
+  height: 50px;
+  font-weight: bold;
+}
+.for-div:hover,
+.following-div:hover {
+  background-color: rgb(233, 233, 233);
+  cursor: pointer;
+}
+.following-div {
+  display: flex;
+  flex-direction: row;
+  width: 330px;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: gray;
+}
+.general {
+  display: flex;
+  width: 658px;
+  height: 140px;
+  margin-left: 353px;
+  margin-top: 100px;
+  border-bottom: 1px solid rgb(231, 231, 231);
+}
+.profile-pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  object-position: center;
+  object-fit: cover;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.div-for-two {
+  display: flex;
+  flex-direction: column;
+}
+.input-div {
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+.placeholder {
+  border: none;
+  font-size: 20px;
+  margin-left: 5px;
+}
+.icons-div {
+  display: flex;
+  align-items: end;
+  justify-content: space-evenly;
+  height: 50px;
+  width: 180px;
+  margin-left: 5px;
+  margin-bottom: 20px;
+}
+.icons-div img {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+.button-div {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  justify-content: end;
+  align-items: end;
+}
+.tweet-button {
+  border: none;
+  background-color: rgb(29, 161, 242);
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  height: 40px;
+  width: 80px;
+  border-radius: 40px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.tweet-button:hover {
+  background-color: rgb(25, 144, 218);
+}
+.show-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 659px;
+  height: 50px;
+  margin-left: 352px;
+  color: rgb(25, 144, 218);
+  border-bottom: 1px solid rgb(231, 231, 231);
+  cursor: pointer;
+}
+.show-div:hover {
+  background-color: rgb(223, 223, 223);
+}
+.tweet-general {
+  display: flex;
+  margin-left: 352px;
+  width: 659px;
+  height: 120px;
+  border-bottom: 1px solid rgb(225, 225, 225);
+}
+.p-pic-div {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.p-pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  object-fit: cover;
+  object-position: center;
+  margin-bottom: 30px;
+}
+.sub-general {
+  display: flex;
+  height: 110px;
+  flex-direction: column;
+}
+.info-div {
+  display: flex;
+  flex-direction: row;
+  width: 620px;
+  height: 40px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.space-div {
+  display: flex;
+  width: 450px;
+  margin-left: 4px;
+  justify-content: space-between;
+}
+.dots-button {
+  border: none;
+  background-color: white;
+  font-size: 20px;
+  height: 40px;
+  cursor: pointer;
+}
+.tweet-caption {
+  display: flex;
+  height: 40px;
+  font-size: 16px;
+  margin-left: 10px;
+}
+.icon-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 500px;
+}
+.icon-buttons img {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+.numbers {
+  color: rgb(83, 100, 113);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.women-pic {
+  width: 400px;
+  height: 500px;
+  border-radius: 15px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.tweets-general {
+  display: flex;
+  margin-left: 352px;
+  width: 659px;
+  height: 650px;
+  border-bottom: 1px solid rgb(225, 225, 225);
+}
+.p-pics-div {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.icons-buttons img {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+.icons-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 500px;
+  margin-top: 10px;
+}
+.search-input-div {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  align-items: center;
+  top: 0;
+  height: 60px;
+  margin-left: 10px;
+  background-color: white;
+}
+.search-input {
+  width: 350px;
+  height: 45px;
+  border-radius: 100px;
+  border: none;
+  padding-left: 15px;
+  font-size: 15px;
+  background-color: rgb(233, 233, 233);
+  color: rgb(28, 28, 28);
+}
+.section-div {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  border-left: 1px solid rgb(222, 222, 222);
+}
+.trends-bc {
+  background-color: rgb(233, 233, 233);
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  height: 1000px;
+  border-radius: 20px;
+  margin-top: 60px;
+  margin-left: 10px;
+}
+.for-you {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  margin-left: 10px;
+  font-size: 22px;
+  font-weight: bold;
+}
+.all-div {
+  display: flex;
+  flex-direction: column;
+  height: 70px;
+  width: 340px;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+.top-top {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.bottom-bottom {
+  display: flex;
+  flex-direction: column;
+  line-height: 21px;
+}
+.three-button {
+  border: none;
+  font-size: 20px;
+  background-color: rgb(233, 233, 233);
+}
+.show-link {
+  border: none;
+  color: rgb(25, 144, 218);
+  font-size: 15px;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-top: 15px;
+  text-decoration: none;
+}
+.follow-sec-div {
+  background-color: rgb(233, 233, 233);
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  border-radius: 20px;
+  height: 350px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.who-div {
+  display: flex;
+  font-size: 21px;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.p-info-div {
+  display: flex;
+  height: 80px;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.p-info-div:hover {
+  background-color: rgb(194, 194, 194);
+}
+.p-picc-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.pp-pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  object-fit: cover;
+  object-position: center;
+}
+.names-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 23px;
+  margin-left: 8px;
+}
+.follow-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 100px;
+}
+.follow-button {
+  border: none;
+  background-color: black;
+  color: white;
+  height: 40px;
+  width: 80px;
+  border-radius: 50px;
+  font-size: 13px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.show-linkk {
+  color: rgb(25, 144, 218);
+  text-decoration: none;
+  margin-left: 15px;
+  margin-top: 15px;
+  font-size: 15px;
+}
+.last-links {
+  display: flex;
+  width: 350px;
+  margin-top: 20px;
+  justify-content: start;
+  height: 60px;
+  flex-wrap: wrap;
+  margin-left: 10px;
+}
+.last-links a {
+  color: gray;
+  margin-left: 8px;
+  text-decoration: none;
+  font-size: 14px;
+}
